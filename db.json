@@ -1,0 +1,152 @@
+
+{
+"order":{
+    "confirm":{
+        "status":{
+        "message":"success",
+        "code":"200"
+            }
+        },
+        "listAll":{ 
+            "status":{ 
+               "message":"success",
+               "code":"200"
+            },
+            "paging":{ 
+               "offset":1,
+               "limit":2,
+               "total":62
+            },
+            "data":[ 
+               { 
+                  "orderNo":"201903113879073",
+                  "dlvNo":"8000050449",
+                  "orderDate":"20190311140214",
+                  "totalOrderLine": 2,
+                  "orderLine":[ 
+                     { 
+                        "orderPrdSeq":1,
+                        "status":"Purchase Confirmed",
+                        "productNo":"566785",
+                        "productImage":"https://cdn.11street.my/h/8/6/1/2/6/1/67861261_B.jpg",
+                        "quantity":5
+                     },
+                     { 
+                        "orderPrdSeq":2,
+                        "status":"Purchase Confirmed",
+                        "productNo":"566786",
+                        "productImage":"https://cdn.11street.my/h/8/6/1/2/6/1/67861261_B.jpg",
+                        "quantity":5
+                     }
+                  ]
+               },
+               { 
+                  "orderNo":"201902133756788",
+                  "dlvNo":"8000050449",
+                  "orderDate":"20190213094529",
+                  "totalProductPrice":13000,
+                  "totalOrderLine":1,
+                  "orderLine":[ 
+                     { 
+                        "orderPrdSeq":1,
+                        "status":"Purchase Confirmed",
+                        "productNo":"566785",
+                        "productImage":"https://cdn.11street.my/g3/8/7/4/2/8/2/23874282_B.jpg",
+                        "quantity":5
+                     }
+                  ]
+               },
+               { 
+                  "orderNo":"201812133315490",
+                  "dlvNo":null,
+                  "orderDate":"20181213222852",
+                  "totalProductPrice":1000,
+                  "totalOrderLine": 1,
+                  "orderLine":[ 
+                     { 
+                        "orderPrdSeq":1,
+                        "status":"Cancellation Request",
+                        "productNo":"566785",
+                        "productImage":"https://cdn.11street.my/i/7/2/2/8/6/8/66722868_B.jpg",
+                        "quantity":5
+                     }
+                  ]
+               },
+               { 
+                  "orderNo":"201812133315487",
+                  "dlvNo":null,
+                  "orderDate":"20181213222852",
+                  "totalProductPrice":1000,
+                  "totalOrderLine": 1,
+                  "orderLine":[ 
+                     { 
+                        "orderPrdSeq":1,
+                        "status":"Return Request",
+                        "productNo":"566785",
+                        "productImage":"https://cdn.11street.my/i/7/2/2/8/6/8/66722868_B.jpg",
+                        "quantity":2
+                     }
+                  ]
+               }
+            ]
+         }
+    },
+    "detail":{
+        "status": {
+        "message": "success",
+        "code": "200"
+        },
+        "data": {
+        "orderNo": "201903113879073",
+        "dlvNo": "800145656",
+        "orderDate": "20190311140214",
+        "tmsStatus": false,
+        "popboxStatus": false,
+        "totalProductPrice": 11800,
+        "buyer": {
+        "name": "Mike Max",
+        "phoneNo": "0129983343",
+        "address": "Level 11, 203, Menara Allianz Sentral",
+        "city": "Kuala Lumpur",
+        "state": "Wilayah Persekutuan",
+        "postcode": "50470"
+        },
+        "orderLine": [
+        {
+        "orderPrdSeq": 1,
+        "cancelId": null,
+        "claimId": "1211443",
+        "orderStatus": "Cancellation Request",
+        "purchaseConfirmDate": null,
+        "cancellationRequestDate": null,
+        "returnRequestDate": "20190311140214",
+        "exchangeRequestDate": null,
+        "productNo": "4865421",
+        "productImage": "https://cdn.11street.my/h/8/6/1/2/6/1/67861261_B.jpg",
+        "productName": "Nutty Lover Almond Nut USA 1KG (2 x 500gram) [Roasted Unsalted] Premium / Kacang Badam",
+        "sellerProductCode": "TWE990342",
+        "productOption": null,
+        "productPrice": 1180,
+        "quantity": 1
+        },
+        {
+        "orderPrdSeq": 2,
+        "cancelId": null,
+        "claimId": "1211444",
+        "orderStatus": "Cancellation Request",
+        "purchaseConfirmDate": null,
+        "cancellationRequestDate": null,
+        "returnRequestDate": "20190311140214",
+        "exchangeRequestDate": null,
+        "productNo": "4865421",
+        "productImage": "https://cdn.11street.my/h/8/6/1/2/6/1/67861261_B.jpg",
+        "productName": "Nutty Lover Almond Nut USA 1KG (2 x 500gram) [Roasted Unsalted] Premium / Kacang Badam",
+        "sellerProductCode": "TWE990342",
+        "productOption": null,
+        "productPrice": 1180,
+        "quantity": 1
+        }
+        ]
+        }
+        }
+}
