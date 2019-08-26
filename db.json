@@ -1,6 +1,5 @@
 
 {
-"order":{
     "confirm":{
         "status":{
         "message":"success",
@@ -89,7 +88,6 @@
                   ]
                }
             ]
-         }
     },
     "detail":{
         "status": {
